@@ -55,6 +55,5 @@ https://gavinpwd.github.io
 
 **Here is a sample screenshot of the web app:**
 
-![Sample Screenshot] 
-(/images/sample-screenshot.png)
+![Sample Screenshot] (/images/sample-screenshot.png)
 
