@@ -19,6 +19,14 @@ nav {
 .navbar-brand {
         font-family: 'Ubuntu', sans-serif;
         font-size: 35px;
+        font-style: italic;
+        font-weight: 400;
+
+}
+
+
+.card-description {
+        white-space: pre-wrap;
 
 }
 

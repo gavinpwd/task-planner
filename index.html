@@ -85,7 +85,7 @@
                         <div class="md-form md-outline input-with-post-icon">
                             <label for="newTaskDueDate" class="col-sm-3 col-form-label">Due Date</label>
                             <div class="col-sm-9">
-                                <input placeholder="Select date" id="newTaskDueDate" type="date" class="form-control" placeholder="dd/mm/yyyy">
+                                <input id="newTaskDueDate" type="date" class="form-control" placeholder="yyyy/mm/dd" required>
                             </div>
                             <div class="valid-feedback">Looks good!</div>
                             <div class="invalid-feedback">Please pick current date or future date</div>
@@ -100,12 +100,6 @@
                                 <option>For Review</option>
                                 <option>Done</option>
                             </select>
-                            <div class="dropdown-menu" aria-labelledby="addTaskStatus">
-                                <a class="dropdown-item" href="#">To Do</a>
-                                <a class="dropdown-item" href="#">In Progress</a>
-                                <a class="dropdown-item" href="#">For Review</a>
-                                <a class="dropdown-item" href="#">Done</a>
-                            </div>
                         </div>
         
                     </form>

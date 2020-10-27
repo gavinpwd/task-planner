@@ -7,7 +7,7 @@ const createTaskHtml = (id, name, description, assignedTo, dueDate, status) => `
 <div class="card col-sm-4 px-sm-1 bg-light border-warning mb-3" data-task-id="${id}">
     
     <div class="card-body">
-        <h5 class="badge ${status === 'To Do' ? 'bg-secondary text-danger' :  status === 'In Progress' ? 'bg-warning' : status === 'For Review' ? 'bg-info' : 'badge-success'}">${status}</h5>
+        <h5 class="badge ${status === 'To Do' ? 'bg-secondary text-danger' :  status === 'In Progress' ? 'bg-warning' : status === 'For Review' ? 'bg-info text-white' : 'badge-success'}">${status}</h5>
         
         <h4 class="text-dark">${name}</h4>
         
@@ -17,13 +17,13 @@ const createTaskHtml = (id, name, description, assignedTo, dueDate, status) => `
     </div>    
        
     <div class="d-flex my-3 justify-content-end">
-    <button class="fa fa-trash mx-4 btn btn-outline-danger delete-button" type="submit"></button>
+    <button class="fa fa-trash mx-4 btn btn-outline-danger delete-button" type="submit" title="Delete this task"></button>
     
-    <button class="fa fa fa-edit mx-4 btn btn-outline-info review-button ${status === 'For Review'}"></button>
+    <button class="fa fa fa-edit mx-4 btn btn-outline-info review-button ${status === 'For Review'}" title="Change to Review"></button>
     
-    <button class="fa fa fa-hourglass-half mx-4 btn btn-outline-warning progress-button ${status === 'In Progess'}"></button>
+    <button class="fa fa fa-hourglass-half mx-4 btn btn-outline-warning progress-button ${status === 'In Progess'}" title="Change to In Progress"></button>
     
-    <button class="fa fa-check-square-o mx-4 btn btn-outline-success done-button ${status === 'Done'}"></button>
+    <button class="fa fa-check-square-o mx-4 btn btn-outline-success done-button ${status === 'Done'}" title="Change to Done"></button>
     </div>
 </div>  
 
