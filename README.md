@@ -2,6 +2,8 @@
 #### A JWD group project by Jahnavi Sangisetti and Gavin Pili
 #### (Generation :: Academy Xi  |  Junior Web Developer Program)
 
+**You can view the web app here: https://gavinpwd.github.io/task-planner/**
+
 **Our Task Planner web app was created using the following:**
 
 - HTML5, CSS3, JavaScript
