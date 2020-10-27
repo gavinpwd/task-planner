@@ -55,5 +55,4 @@ https://gavinpwd.github.io
 
 **Here is a sample screenshot of the web app:**
 
-![Sample Screenshot] (task-planner/images/sample-screenshot.png)
-
+![ScreenShot](https://raw.github.com/gavinpwd/task-planner/master/images/sample-screenshot.png)
